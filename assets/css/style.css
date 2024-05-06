@@ -1,0 +1,96 @@
+@import url("./global.css");
+@import url('./reset.css');
+
+.menu {
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      align-content: flex-start;
+      }
+.menu #left {
+      justify-content: flex-start;
+      margin-left: 24px;
+}
+.menu #menu {
+      margin-top: 16px;
+}
+.menu #logotipo {
+      margin-top: 18px;
+}
+.menu #center {
+      justify-content: center;
+      margin-top: 8px;
+}
+.menu #right {
+      justify-content: flex-end;
+      margin-right: 24px;
+      display: flex;
+}
+.menu #bar {
+      margin-top: 8px;
+      border: 1px 0px 0px 0px;
+      border: 1px solid #CCCCCC;
+}           
+.menu #lupa {
+      background-image: url('assets/img/rectangle2.png');
+      width: 57px;
+      height: 40px;
+      border: 1px 0px 0px 0px;
+      background-color: #F8F8F8;
+      border: 1px solid #CCCCCC; 
+      }
+.menu #camera {
+      padding: 5px 1px 5px 1px;
+}
+.menu #bell {
+      padding: 2px 3px 2px 3px;
+      }
+main {
+      display: flex;
+      flex-direction: row;
+      
+      }
+section {
+      width: 952px;
+      height: 746px;
+      margin-top: 84px;
+      margin-left: 75px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 16px;
+      }
+section .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+section .actions #channel {
+      gap: 12px;
+      }
+section .actions #like {
+      gap: 0px;
+      }
+section .actions #dislike {
+      gap: 0px;
+}
+aside  {
+      height: 938px;
+      margin-top: 84px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+aside .videos {
+      display: flex;
+      flex-direction: row;
+}
+aside .videos #description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+     
+
+
