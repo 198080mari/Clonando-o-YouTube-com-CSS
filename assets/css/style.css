@@ -1,8 +1,15 @@
 @import url("./global.css");
 @import url('./reset.css');
 
+* {
+      font-family: Roboto;
+      color: #000000;  
+      font-size: 14px;
+      line-height: 16.41px;
+}
 .menu {
       height: 56px;
+      width: 1440px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -11,6 +18,9 @@
 .menu #left {
       justify-content: flex-start;
       margin-left: 24px;
+      width: 146px;
+      height: 24px;
+      padding: 24px;
 }
 .menu #menu {
       margin-top: 16px;
@@ -26,6 +36,7 @@
       justify-content: flex-end;
       margin-right: 24px;
       display: flex;
+      gap: 24px;    
 }
 .menu #bar {
       margin-top: 8px;
@@ -49,48 +60,94 @@
 main {
       display: flex;
       flex-direction: row;
-      
+      margin-left: 75px;
       }
 section {
-      width: 952px;
-      height: 746px;
-      margin-top: 84px;
-      margin-left: 75px;
       display: flex;
-      justify-content: space-between;
       flex-direction: column;
-      gap: 16px;
-      }
-section .actions {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      margin-top: 84px;
 }
-section .actions #channel {
+section .content p {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 23.44px;
+      text-align: left;
+      margin-top: 15px; 
+}
+section span {
+      display: inline-flex;
+      align-items: center;  /*centro da linha*/
+      font-weight: 600;
+}
+section #left {
       gap: 12px;
-      }
-section .actions #like {
-      gap: 0px;
-      }
-section .actions #dislike {
-      gap: 0px;
+      margin: 0;
+      font-weight: 400;   
+}
+section #button {
+      margin: 42px;
+}
+section button {
+      background-color: #CC0000;
+      color: #ffffff;
+      width: 159px;
+      height: 40px;
+      border-radius: 2px;   
+}
+section .right {
+      margin:0;
+}
+section .right #word {
+      margin-left: 12px;
+}
+section .right #figura {
+      margin-left: 42px;
+}
+section .text {
+      display: flex;
+      flex-direction: column;
+}
+section #visualizaçoes {
+      font-weight: 600;
+}
+section #texto {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 15px;
+      color: #515151; 
+      width: 510px;
+      height: 64px;
 }
 aside  {
       height: 938px;
       margin-top: 84px;
+      margin-left: 25px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      gap: 16px;
 }
 aside .videos {
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
 }
 aside .videos #description {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      margin-left: 16px;
+      width: 196px;
 }
-     
-
-
+aside .videos #description #titulo {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 16.41px;
+      text-align: left;
+}
+aside .videos #description p {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.06px;
+      text-align: left;
+}  
